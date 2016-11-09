@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tokyo 2020.CSharp", "Tokyo 2020.CSharp.csproj", "{8A0B8F6A-3342-EC25-1838-BF628D69ED53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tokyo 2020.CSharp.Editor", "Tokyo 2020.CSharp.Editor.csproj", "{F3A854C8-6140-5779-E009-FF60D787D2A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A0B8F6A-3342-EC25-1838-BF628D69ED53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0B8F6A-3342-EC25-1838-BF628D69ED53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0B8F6A-3342-EC25-1838-BF628D69ED53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0B8F6A-3342-EC25-1838-BF628D69ED53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A854C8-6140-5779-E009-FF60D787D2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A854C8-6140-5779-E009-FF60D787D2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A854C8-6140-5779-E009-FF60D787D2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A854C8-6140-5779-E009-FF60D787D2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

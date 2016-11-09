@@ -1,0 +1,89 @@
+Mono path[0] = 'M:/Game Design/Unity Projects/Tokyo 2020/Tokyo_2020_Data/Managed'
+Mono path[1] = 'M:/Game Design/Unity Projects/Tokyo 2020/Tokyo_2020_Data/Mono'
+Mono config path = 'M:/Game Design/Unity Projects/Tokyo 2020/Tokyo_2020_Data/Mono/etc'
+PlayerConnection initialized from M:/Game Design/Unity Projects/Tokyo 2020/Tokyo_2020_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55294
+Multi-casting "[IP] 192.168.1.103 [Port] 55294 [Flags] 2 [Guid] 1334770504 [EditorId] 2178310633 [Version] 1048832 [Id] WindowsPlayer(LAPTOP-MF79RDLL) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.1.103:55294]
+Initialize engine version: 5.4.2f2 (b7e030c65c9b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [C:\WINDOWS\System32\DriverStore\FileRepository\nvacwu.inf_amd64_9934c34dc6ca0c4b\nvd3dumx.dll 21.21.13.6909]
+    Renderer: NVIDIA GeForce GTX 960M
+    Vendor:   NVIDIA
+    VRAM:     2018 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0 ATOC=1
+Begin MonoManager ReloadAssembly
+Platform assembly: M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\DialogueSystem.dll (this message is harmless)
+Loading M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\DialogueSystem.dll into Unity Child Domain
+Platform assembly: M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\LuaInterpreter.dll (this message is harmless)
+Loading M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\LuaInterpreter.dll into Unity Child Domain
+Platform assembly: M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\ConditionalExpression.dll (this message is harmless)
+Loading M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\ConditionalExpression.dll into Unity Child Domain
+Platform assembly: M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\PlayMaker.dll (this message is harmless)
+Loading M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\PlayMaker.dll into Unity Child Domain
+- Completed reload, in  0.232 seconds
+Platform assembly: M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: M:\Game Design\Unity Projects\Tokyo 2020\Tokyo_2020_Data\Managed\System.dll (this message is harmless)
+OnLevelWasLoaded was found on UnityUIBarkSubtitleDialogueUI
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoScriptCache.cpp Line: 375)
+
+OnLevelWasLoaded was found on UnityUIDialogueUI
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoScriptCache.cpp Line: 375)
+
+OnLevelWasLoaded was found on PlayMakerFSM
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoScriptCache.cpp Line: 375)
+
+OnLevelWasLoaded was found on GameSaver
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoScriptCache.cpp Line: 375)
+
+desktop: 1920x1080 59Hz; virtual: 3456x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.163347 ms
+Main Camera : FSM : Initial_Text : StartConversation : Dialogue System: PlayMaker Action Start Conversation - actor is null
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+HutongGames.PlayMaker.FsmLog:AddEntry(FsmLogEntry, Boolean) (at c:\Users\Alex\Documents\Unity\Playmaker\Projects\Playmaker.source.unity\Assets\PlayMaker\Classes\FsmLog.cs:143)
+HutongGames.PlayMaker.FsmLog:LogAction(FsmLogType, String, Boolean) (at c:\Users\Alex\Documents\Unity\Playmaker\Projects\Playmaker.source.unity\Assets\PlayMaker\Classes\FsmLog.cs:307)
+HutongGames.PlayMaker.FsmStateAction:LogWarning(String) (at c:\Users\Alex\Documents\Unity\Playmaker\Projects\Playmaker.source.unity\Assets\PlayMaker\Classes\FsmStateAction.cs:166)
+PixelCrushers.DialogueSystem.PlayMaker.StartConversation:OnEnter() (at M:\Game Design\Unity Projects\Tokyo 2020\Assets\Dialogue System\Third Party Support\PlayMaker\Actions\StartConversation.cs:36)
+HutongGames.PlayMaker.FsmState:ActivateActions(Int32) (at c:\Users\Alex\Documents\Unity\Playmaker\Projects\Playmaker.source.unity\Assets\PlayMaker\Classes\FsmState.cs:200)
+HutongGames.PlayMaker.FsmState:OnEnter() (at c:\Users\Alex\Documents\Unity\Playmaker\Projects\Playmaker.source.unity\Assets\PlayMaker\Classes\FsmState.cs:168)
+HutongGames.PlayMaker.Fsm:EnterState(FsmState) (at c:\Users\Alex\Documents\Unity\Playmaker\Projects\Playmaker.source.unity\Assets\PlayMaker\Classes\Fsm.cs:2155)
+HutongGames.PlayMaker.Fsm:SwitchState(FsmState) (at c:\Users\Alex\Documents\Unity\Playmaker\Projects\Playmaker.source.unity\Assets\PlayMaker\Classes\Fsm.cs:2113)
+HutongGames.PlayMaker.Fsm:UpdateStateChanges() (at c:\Users\Alex\Documents\Unity\Playmaker\Projects\Playmaker.source.unity\Assets\PlayMaker\Classes\Fsm.cs:2041)
+HutongGames.PlayMaker.Fsm:Start() (at c:\Users\Alex\Documents\Unity\Playmaker\Projects\Playmaker.source.unity\Assets\PlayMaker\Classes\Fsm.cs:1356)
+PlayMakerFSM:Start() (at c:\Users\Alex\Documents\Unity\Playmaker\Projects\Playmaker.source.unity\Assets\PlayMaker\PlayMakerFSM.cs:400)
+ 
+(Filename: c:/Users/Alex/Documents/Unity/Playmaker/Projects/Playmaker.source.unity/Assets/PlayMaker/Classes/FsmLog.cs Line: 143)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2ba8 -> priority: 1 
+  Thread -> id: 21e0 -> priority: 1 
