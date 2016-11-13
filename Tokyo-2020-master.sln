@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{4867764D-AD01-8928-CEBE-02B96F055D35}") = "Tokyo-2020-master", "Assembly-CSharp-firstpass.csproj", "{9F6905E9-2A80-8C28-FE60-8446F5E6FED9}"
+EndProject
+Project("{4867764D-AD01-8928-CEBE-02B96F055D35}") = "Tokyo-2020-master", "Assembly-CSharp.csproj", "{14EF7922-5ABF-0015-3B8A-0544C36B84BC}"
+EndProject
+Project("{4867764D-AD01-8928-CEBE-02B96F055D35}") = "Tokyo-2020-master", "Assembly-CSharp-Editor.csproj", "{4999FDD1-C7D7-1E8C-AA52-3CB929FFAE0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F6905E9-2A80-8C28-FE60-8446F5E6FED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6905E9-2A80-8C28-FE60-8446F5E6FED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6905E9-2A80-8C28-FE60-8446F5E6FED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6905E9-2A80-8C28-FE60-8446F5E6FED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14EF7922-5ABF-0015-3B8A-0544C36B84BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14EF7922-5ABF-0015-3B8A-0544C36B84BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14EF7922-5ABF-0015-3B8A-0544C36B84BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14EF7922-5ABF-0015-3B8A-0544C36B84BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4999FDD1-C7D7-1E8C-AA52-3CB929FFAE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4999FDD1-C7D7-1E8C-AA52-3CB929FFAE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4999FDD1-C7D7-1E8C-AA52-3CB929FFAE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4999FDD1-C7D7-1E8C-AA52-3CB929FFAE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{28894CA5-7A92-8275-1ED5-5D80A501F5A2}</ProjectGuid>
+    <ProjectGuid>{14EF7922-5ABF-0015-3B8A-0544C36B84BC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -38,10 +38,10 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>M:/Programs/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>M:/Programs/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>M:/Programs/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>M:/Programs/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -170,6 +170,46 @@
      <Compile Include="Assets\Imported\Dialogue System\Scripts\Templates\TemplateDialogueUI.cs" />
      <Compile Include="Assets\Imported\Dialogue System\Scripts\Templates\TemplateQuestLogWindow.cs" />
      <Compile Include="Assets\Imported\Dialogue System\Scripts\Templates\TemplateTextFieldUI.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Example\Scripts\AnimationPlayer.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Example\Scripts\BarOptionsGUI.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Example\Scripts\BarOptionsGUIMulti.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Example\Scripts\BarPresentation.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Example\Scripts\EnergyBarPresentationColorize.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Example\Scripts\EnergyBarUGUISlider.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Example\Scripts\GoCircles.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Example\Scripts\InstantiateRandom.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Example\Scripts\LoadingScript.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Example\Scripts\MultiBarSliders.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Example\Scripts\RandomInstantiatedValueChanger.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Example\Scripts\RepeatedUGUILastIconAnimator.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\3DRenderers\EnergyBar3DBase.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\3DRenderers\FilledRenderer3D.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\3DRenderers\RepeatedRenderer3D.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\3DRenderers\SequenceRenderer3D.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\3DRenderers\TransformRenderer3D.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\ColorBind.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\EnergyBar.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\EnergyBarBase.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\EnergyBarCommons.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\EnergyBarFollowObject.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\OnGUI\EnergyBarOnGUIBase.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\OnGUI\EnergyBarRenderer.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\OnGUI\EnergyBarRepeatRenderer.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\OnGUI\EnergyBarSequenceRenderer.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\OnGUI\EnergyBarTransformRenderer.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Other\ObjectFinder.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Screen2.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\SimpleEvent.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Utils.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\EnergyBarSpawnerUGUI.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\EnergyBarUGUIBase.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\FadeUGUI.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\FilledRendererUGUI.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\Image2.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\RepeatedRendererUGUI.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\SequenceRendererUGUI.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\SlicedRendererUGUI.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\TransformRendererUGUI.cs" />
      <Compile Include="Assets\Imported\PlayMaker\Actions\ActivateGameObject.cs" />
      <Compile Include="Assets\Imported\PlayMaker\Actions\AddAnimationClip.cs" />
      <Compile Include="Assets\Imported\PlayMaker\Actions\AddComponent.cs" />
@@ -755,12 +795,15 @@
      <Compile Include="Assets\Imported\PlayMaker\UpdateHelper.cs" />
      <Compile Include="Assets\Imported\iTween\iTween.cs" />
      <Compile Include="Assets\Scripts\QuitReset.cs" />
+     <Compile Include="Assets\Scripts\SequencerCommandAttribute.cs" />
      <None Include="Assets\Imported\Dialogue System\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\Font White DB.shader" />
      <None Include="Assets\Imported\Dialogue System\Examples\Mobile Test\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Bark Example\Three NPCs Bark\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Unity UI Examples\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\iOS\_README.txt" />
      <None Include="Assets\Imported\PlayMaker\Templates\readme.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\Font DB.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Computer\Bitwise Font\!license.txt" />
      <None Include="Assets\Imported\PlayMaker\Readme.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Computer\Typing.txt" />
@@ -769,14 +812,20 @@
      <None Include="Assets\Imported\Dialogue System\Third Party Support\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Bark Example\Bark Conversation\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Art\Portraits\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\Font.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Shared Assets\Playtime Font\medium\license.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\UnlitTransparentTint.shader" />
      <None Include="Assets\Imported\Dialogue System\Examples\Art\Sounds\_README.txt" />
      <None Include="Assets\Dialogue System\Third Party Support\PlayMaker\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\DLLs\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\UnlitTransparentTintPre.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Circle\Textures\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\ExpandFillShaderPre.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Necromancer\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Feature Demo\Multiple Database Example\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Example\Fonts\Boogaloo\boogaloo_glyphs.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Shared Assets\Playtime Font\solid\read me.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\Font White.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Shared Assets\Playtime Font\solid\license.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Speech Bubble\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Bark Example\_README.txt" />
@@ -786,16 +835,23 @@
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Shared Audio\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Camera Angle Studio\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Shared Assets\Playtime Font\bold\license.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\UnlitShaderPre.shader" />
      <None Include="Assets\Imported\Dialogue System\Examples\Quick Start\Quick Start.xml" />
      <None Include="Assets\Imported\Dialogue System\Examples\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Sequence Example\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\RadialFillShaderPre.shader" />
      <None Include="Assets\Imported\Dialogue System\Examples\Feature Demo\Text Input Example\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Necromancer\Necromancer GUI\Kingthings.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Art\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\VerticalFillShader.shader" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\HorizontalFillShaderPre.shader" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\EBTCanvasClearMask.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Shared Assets\Playtime Font\regular\read me.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Feature Demo\Dialogue Database\Feature Demo.xml" />
      <None Include="Assets\Imported\Dialogue System\Examples\Quest Example\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\RadialFillShader.shader" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\UnlitShader.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Feature Demo\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Shared Assets\Playtime Font\regular\license.txt" />
@@ -805,12 +861,21 @@
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Necromancer\Necromancer GUI\Readme.txt" />
      <None Include="Assets\Imported\Dialogue System\Scripts\Supplemental\Utility\_README.txt" />
      <None Include="Assets\Imported\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Scripts\Sources\How To Build.txt" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\Imported\Dialogue System\Scripts\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\ExpandFillShader.shader" />
      <None Include="Assets\Imported\Dialogue System\Examples\Feature Demo\Feature Demo with Continue Button\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Wheel\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Feature Demo\Menu Text Demo\Feature Demo With Menu Text.xml" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\VerticalFillShaderPre.shader" />
      <None Include="Assets\Imported\PlayMaker\Resources\PlayMakerAssemblies.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\HorizontalFillShader.shader" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\UnlitTransparentTintPre DB.shader" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\UnlitTransparentTint DB.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Shared Assets\Playtime Font\medium\read me.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Example\Fonts\Boogaloo\SIL OFL Font License Boogaloo.txt" />
      <None Include="Assets\Imported\Dialogue System\Scripts\Supplemental\UI\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Shared Fonts\Orbitron\SIL Open Font License.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Shared Textures\_README.txt" />
@@ -822,23 +887,33 @@
      <None Include="Assets\Imported\PlayMaker\Versions\readme.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Unity UI Examples\Animated Portrait Example\Private Hart Animated Portrait\sprites_credits.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>M:/Programs/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>M:/Programs/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>M:/Programs/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>M:/Programs/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="DialogueSystem">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/Dialogue System/DLLs/DialogueSystem.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/Dialogue System/DLLs/DialogueSystem.dll</HintPath>
  </Reference>
  <Reference Include="LuaInterpreter">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/Dialogue System/DLLs/LuaInterpreter.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/Dialogue System/DLLs/LuaInterpreter.dll</HintPath>
+ </Reference>
+ <Reference Include="Mad2D">
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/Energy Bar Toolkit/Scripts/Mad2D.dll</HintPath>
+ </Reference>
+ <Reference Include="MadCommons">
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/Energy Bar Toolkit/Scripts/MadCommons.dll</HintPath>
  </Reference>
  <Reference Include="ConditionalExpression">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/PlayMaker/ConditionalExpression.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/PlayMaker/ConditionalExpression.dll</HintPath>
  </Reference>
  <Reference Include="PlayMaker">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/Plugins/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{9F6905E9-2A80-8C28-FE60-8446F5E6FED9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
