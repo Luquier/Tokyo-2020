@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9134CBC3-0F06-F314-E6A6-92F63D135086}</ProjectGuid>
+    <ProjectGuid>{4999FDD1-C7D7-1E8C-AA52-3CB929FFAE0B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -38,10 +38,10 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>M:/Programs/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>M:/Programs/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>M:/Programs/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>M:/Programs/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -60,6 +60,38 @@
      <Compile Include="Assets\Imported\Dialogue System\Scripts\Editor\Wizards\NPCSetupWizard.cs" />
      <Compile Include="Assets\Imported\Dialogue System\Scripts\Editor\Wizards\PlayerSetupWizard.cs" />
      <Compile Include="Assets\Imported\Dialogue System\Scripts\Supplemental\Utility\Editor\SupplementalMenuItems.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\3DRenderers\Editor\CreateMeshBarTool.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\3DRenderers\Editor\FilledRenderer3DBuilder.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\3DRenderers\Editor\RepeatRenderer3DBuilder.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\3DRenderers\Editor\SequenceRenderer3DBuilder.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\3DRenderers\Editor\TransformRenderer3DBuilder.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\EditorBase.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\EnergyBar3DInspectorBase.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\EnergyBarInspector.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\EnergyBarInspectorBase.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\EnergyBarOnGUIInspectorBase.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\EnergyBarRendererInspector.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\EnergyBarRepeatRendererInspector.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\EnergyBarSequenceRendererInspector.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\EnergyBarTransformRendererInspector.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\EnergyBarUtils.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\FilledRenderer3DInspector.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\MenuItems.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\ObjectFinderEditor.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\RepeatRenderer3DInspector.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\SequenceRenderer3DInspector.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\SimpleEventInspector.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\TransformRenderer3DInspector.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\UpgradeWindow.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\Editor\Version.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\Editor\EBTPackerPolicy.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\Editor\EnergyBarUGUIInspectorBase.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\Editor\FilledRendererUGUIInspector.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\Editor\RepeatedRendererUGUIInspector.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\Editor\SequenceRendererUGUIInspector.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\Editor\SlicedRendererUGUIInspector.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\Editor\TransformRendererUGUIInspector.cs" />
+     <Compile Include="Assets\Imported\Energy Bar Toolkit\Scripts\uGUI\Editor\UGUIBarsBuilder.cs" />
      <Compile Include="Assets\Imported\PlayMaker\Actions\Editor\GetDistanceEditor.cs" />
      <Compile Include="Assets\Imported\PlayMaker\Actions\Editor\LookAtActionEditor.cs" />
      <Compile Include="Assets\Imported\PlayMaker\Actions\Editor\MoveTowardsActionEditor.cs" />
@@ -95,11 +127,13 @@
      <Compile Include="Assets\Imported\PlayMaker\Editor\ReportWindow.cs" />
      <Compile Include="Assets\Imported\iTween\PlayMaker\Editor\iTweenMoveToActionEditor.cs" />
      <None Include="Assets\Imported\Dialogue System\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\Font White DB.shader" />
      <None Include="Assets\Imported\Dialogue System\Examples\Mobile Test\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Bark Example\Three NPCs Bark\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Unity UI Examples\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\iOS\_README.txt" />
      <None Include="Assets\Imported\PlayMaker\Templates\readme.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\Font DB.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Computer\Bitwise Font\!license.txt" />
      <None Include="Assets\Imported\PlayMaker\Readme.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Computer\Typing.txt" />
@@ -108,14 +142,20 @@
      <None Include="Assets\Imported\Dialogue System\Third Party Support\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Bark Example\Bark Conversation\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Art\Portraits\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\Font.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Shared Assets\Playtime Font\medium\license.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\UnlitTransparentTint.shader" />
      <None Include="Assets\Imported\Dialogue System\Examples\Art\Sounds\_README.txt" />
      <None Include="Assets\Dialogue System\Third Party Support\PlayMaker\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\DLLs\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\UnlitTransparentTintPre.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Circle\Textures\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\ExpandFillShaderPre.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Necromancer\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Feature Demo\Multiple Database Example\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Example\Fonts\Boogaloo\boogaloo_glyphs.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Shared Assets\Playtime Font\solid\read me.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\Font White.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Shared Assets\Playtime Font\solid\license.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Speech Bubble\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Bark Example\_README.txt" />
@@ -125,16 +165,23 @@
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Shared Audio\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Camera Angle Studio\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Shared Assets\Playtime Font\bold\license.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\UnlitShaderPre.shader" />
      <None Include="Assets\Imported\Dialogue System\Examples\Quick Start\Quick Start.xml" />
      <None Include="Assets\Imported\Dialogue System\Examples\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Sequence Example\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\RadialFillShaderPre.shader" />
      <None Include="Assets\Imported\Dialogue System\Examples\Feature Demo\Text Input Example\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Necromancer\Necromancer GUI\Kingthings.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Art\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\VerticalFillShader.shader" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\HorizontalFillShaderPre.shader" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\EBTCanvasClearMask.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Shared Assets\Playtime Font\regular\read me.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Feature Demo\Dialogue Database\Feature Demo.xml" />
      <None Include="Assets\Imported\Dialogue System\Examples\Quest Example\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\RadialFillShader.shader" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\UnlitShader.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Feature Demo\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Shared Assets\Playtime Font\regular\license.txt" />
@@ -144,12 +191,21 @@
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Necromancer\Necromancer GUI\Readme.txt" />
      <None Include="Assets\Imported\Dialogue System\Scripts\Supplemental\Utility\_README.txt" />
      <None Include="Assets\Imported\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Scripts\Sources\How To Build.txt" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\Imported\Dialogue System\Scripts\_README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\ExpandFillShader.shader" />
      <None Include="Assets\Imported\Dialogue System\Examples\Feature Demo\Feature Demo with Continue Button\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Wheel\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Feature Demo\Menu Text Demo\Feature Demo With Menu Text.xml" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\VerticalFillShaderPre.shader" />
      <None Include="Assets\Imported\PlayMaker\Resources\PlayMakerAssemblies.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\HorizontalFillShader.shader" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\UnlitTransparentTintPre DB.shader" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\README.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Resources\Shaders\UnlitTransparentTint DB.shader" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Unity UI Prefabs\Shared Assets\Playtime Font\medium\read me.txt" />
+     <None Include="Assets\Imported\Energy Bar Toolkit\Example\Fonts\Boogaloo\SIL OFL Font License Boogaloo.txt" />
      <None Include="Assets\Imported\Dialogue System\Scripts\Supplemental\UI\_README.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Shared Fonts\Orbitron\SIL Open Font License.txt" />
      <None Include="Assets\Imported\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Shared Textures\_README.txt" />
@@ -161,96 +217,110 @@
      <None Include="Assets\Imported\PlayMaker\Versions\readme.txt" />
      <None Include="Assets\Imported\Dialogue System\Examples\Unity UI Examples\Animated Portrait Example\Private Hart Animated Portrait\sprites_credits.txt" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
- <HintPath>M:/Programs/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ <HintPath>M:/Programs/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>M:/Programs/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ <HintPath>M:/Programs/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.EditorTestsRunner">
- <HintPath>M:/Programs/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ <HintPath>M:/Programs/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>M:/Programs/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>M:/Programs/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>M:/Programs/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ <HintPath>M:/Programs/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>M:/Programs/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>M:/Programs/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Networking">
- <HintPath>M:/Programs/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ <HintPath>M:/Programs/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TreeEditor">
- <HintPath>M:/Programs/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ <HintPath>M:/Programs/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="DialogueSystem">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/Dialogue System/DLLs/DialogueSystem.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/Dialogue System/DLLs/DialogueSystem.dll</HintPath>
  </Reference>
  <Reference Include="LuaInterpreter">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/Dialogue System/DLLs/LuaInterpreter.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/Dialogue System/DLLs/LuaInterpreter.dll</HintPath>
  </Reference>
  <Reference Include="DialogueSystemEditors">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/Dialogue System/DLLs/Editor/DialogueSystemEditors.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/Dialogue System/DLLs/Editor/DialogueSystemEditors.dll</HintPath>
+ </Reference>
+ <Reference Include="Mad2D">
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/Energy Bar Toolkit/Scripts/Mad2D.dll</HintPath>
+ </Reference>
+ <Reference Include="MadCommons">
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/Energy Bar Toolkit/Scripts/MadCommons.dll</HintPath>
+ </Reference>
+ <Reference Include="Mad2D_Editor">
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/Energy Bar Toolkit/Scripts/Editor/Mad2D_Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="MadCommons_Editor">
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/Energy Bar Toolkit/Scripts/Editor/MadCommons_Editor.dll</HintPath>
  </Reference>
  <Reference Include="ConditionalExpression">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/PlayMaker/ConditionalExpression.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/PlayMaker/ConditionalExpression.dll</HintPath>
  </Reference>
  <Reference Include="ConditionalExpressionEditor">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/PlayMaker/Editor/ConditionalExpressionEditor.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/PlayMaker/Editor/ConditionalExpressionEditor.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditorResources">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.de.resources">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/PlayMaker/Editor/de/PlayMakerEditor.de.resources.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/PlayMaker/Editor/de/PlayMakerEditor.de.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.es-ES.resources">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/PlayMaker/Editor/es-ES/PlayMakerEditor.es-ES.resources.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/PlayMaker/Editor/es-ES/PlayMakerEditor.es-ES.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.fr.resources">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/PlayMaker/Editor/fr/PlayMakerEditor.fr.resources.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/PlayMaker/Editor/fr/PlayMakerEditor.fr.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.it.resources">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/PlayMaker/Editor/it/PlayMakerEditor.it.resources.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/PlayMaker/Editor/it/PlayMakerEditor.it.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.ja.resources">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/PlayMaker/Editor/ja/PlayMakerEditor.ja.resources.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/PlayMaker/Editor/ja/PlayMakerEditor.ja.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.nl.resources">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/PlayMaker/Editor/nl/PlayMakerEditor.nl.resources.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/PlayMaker/Editor/nl/PlayMakerEditor.nl.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.pt-BR.resources">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/PlayMaker/Editor/pt-BR/PlayMakerEditor.pt-BR.resources.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/PlayMaker/Editor/pt-BR/PlayMakerEditor.pt-BR.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.sv-SE.resources">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/PlayMaker/Editor/sv-SE/PlayMakerEditor.sv-SE.resources.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/PlayMaker/Editor/sv-SE/PlayMakerEditor.sv-SE.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.zh-CN.resources">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/PlayMaker/Editor/zh-CN/PlayMakerEditor.zh-CN.resources.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/PlayMaker/Editor/zh-CN/PlayMakerEditor.zh-CN.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.zh-TW.resources">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/PlayMaker/Editor/zh-TW/PlayMakerEditor.zh-TW.resources.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/PlayMaker/Editor/zh-TW/PlayMakerEditor.zh-TW.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMaker">
- <HintPath>M:/Game Design/Unity Projects/Tokyo 2020/Assets/Imported/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+ <HintPath>M:/Game Design/Unity Projects/Tokyo-2020-master/Assets/Imported/Plugins/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
- <HintPath>M:/Programs/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ <HintPath>M:/Programs/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
- <HintPath>M:/Programs/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ <HintPath>M:/Programs/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{9F6905E9-2A80-8C28-FE60-8446F5E6FED9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{28894CA5-7A92-8275-1ED5-5D80A501F5A2}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{14EF7922-5ABF-0015-3B8A-0544C36B84BC}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
